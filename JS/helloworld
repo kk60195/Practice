@@ -1,0 +1,67 @@
+<html>
+
+
+	<head>
+		<script src="helloworld.js">
+		</script>
+	</head>
+	<body>
+
+
+		<input type="button" onclick="popup()" value="Click Me!"></b>
+		<a href = "#" onmousover = "" onMouseout = "popup()">Hover Me!</a>
+		<! -- comment for switching page -->
+		<input type = "button" onclick = "confirmation()" value= "Go to another website">
+
+
+		<script type = "text/JavaScript">
+			var two = 2 ;
+			var ten = 10 ;
+			var linebreak = "<br />" ; 
+
+
+			//addition
+			document.write(linebreak + "two plus ten =");
+			var result = two + ten;
+			document.write(result);
+			document.write(linebreak);
+
+			//multiplication
+			document.write("ten * ten = ");
+			result = ten * ten;
+			document.write(result);
+			document.write(linebreak);
+
+			//while
+			var myCounter = 0;
+			for(i = 0  ; i < 10 ; i++){
+				document.write("<br/>my Counter = " + i);
+				
+			}
+			document.write(linebreak);
+
+
+			//array
+			var myArray = new Array(10);
+
+			for(i = 10 ; i < 20; i++){
+				myArray[i] = i;
+			}
+			document.write("last element of my array is " + myArray[myArray.length - 1]  + linebreak);
+
+			
+
+			</script>
+
+
+
+		<!-- go to bio page -->
+
+	<input type = "button" onclick = "goBiography()" value = "Go to my Bio Page">
+
+
+
+	</body>
+
+
+</html>
